@@ -1,0 +1,29 @@
+.logo {
+    display: flex;
+    align-items: center;
+}
+
+.calces {
+    width: 32px;  
+    height: 32px; 
+    animation: rotate 15s linear infinite;
+}
+
+@keyframes rotate {
+    0% {
+        transform: rotate(0deg);
+    }
+    100% {
+        transform: rotate(360deg);
+    }
+}
+
+.photo {
+    border-radius: 100%;
+    width: 100%;
+    box-shadow: 0 0 10px rgba(0, 0, 0, .5);
+}
+
+body {
+    background-color: #f8f8f8;
+}
